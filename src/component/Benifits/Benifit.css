@@ -1,0 +1,41 @@
+.benDiv{
+  text-align: center;
+  padding: 20px;
+}
+.benDiv>div:last-child{
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+.gridben{
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.gridben img{
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width:620px){
+    .gridben img{
+        width: 150px;
+        height: 150px;
+    }
+    
+
+}
+
+@media screen and (max-width:325px){
+    .gridben img{
+        width: 230px;
+        height: 230px;
+    }
+    
+
+}

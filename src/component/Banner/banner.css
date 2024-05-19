@@ -1,0 +1,58 @@
+.banDiv{
+    background-image: url("../../../public/images/bg\ banner.png");
+    height: 400px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banDiv2{
+    width: 100%;
+}
+.searchBox{
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* height: 100px; */
+text-align: center;
+border-radius: 10px;
+}
+.searchBox>span:first-child{
+    width: 80%;
+}
+.inp{
+    height: 40px;
+width: 100%;
+border: none;
+padding: 10px;
+}
+.trending_search{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+width: 100%;
+margin-top: 20px;
+}
+.trending_search button{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    border: none;
+    width: 100px;
+    font-size: 10px;
+    background-color:rgba(0, 0, 0, 0.2) ;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}

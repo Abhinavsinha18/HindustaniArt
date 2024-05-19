@@ -5,7 +5,7 @@ import NavItem from "./NavList";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "Images", href: "/Images" },
+  { text: "Images", href: "/images" },
   { text: "Animation assets", href: "/png" },
   { text: "Green Screen", href: "/greenscreen" },
   { text: "About Us", href: "/about" },

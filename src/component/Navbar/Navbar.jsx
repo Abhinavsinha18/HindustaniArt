@@ -20,7 +20,8 @@ const Navbar = () => {
    
 <div className="logodiv">
   <Link href={"/"}>
-            <h1 className="logo">HindustaniArt</h1>
+            {/* <h1 className="logo">HindustaniArt</h1> */}
+            <h1 className="logo">Abhinav SInha</h1>
         </Link>
 
         </div>

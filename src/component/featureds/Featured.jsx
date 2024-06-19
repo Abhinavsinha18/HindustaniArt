@@ -10,12 +10,11 @@ const Featured = () => {
     <div>
       <div className="benDiv">
         <div>
-          <h2>Extraordinary, in a nutshell</h2>
+          <h2>Category</h2>
         </div>
         <div>
           <span>
-            Find the most up-to-date vocabulary of images, videos, signs,
-            symbols, and fonts
+            Poltics, Cricket, Other
           </span>
         </div>
       </div>

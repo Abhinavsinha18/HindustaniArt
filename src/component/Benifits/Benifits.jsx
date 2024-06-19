@@ -5,7 +5,7 @@ import "../Benifits/benifits.css"
 
 
 const Benifits = () => {
-  return (<div>
+  return (<div className='benfitboxx'>
 
     <div className='benDiv'>
       <h2>BENEFITS</h2>

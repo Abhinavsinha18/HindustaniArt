@@ -1,0 +1,8 @@
+.subBannerbg{
+    background-image: url("../../../public/images/bg\ banner.png");
+    height: 50px;
+    display: flex;
+justify-content: left;
+padding: 50px;
+align-items: center;
+}

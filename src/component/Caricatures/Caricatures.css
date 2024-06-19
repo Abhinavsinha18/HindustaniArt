@@ -1,0 +1,31 @@
+.sportsdisplay{
+    display: flex;
+    padding:20px;
+    gap: 20px;
+    }
+.sportsdisplay>div:first-child{
+    width: 30%;
+}
+.sportsdisplay>div:last-child{
+    width: 100%;
+}
+.breadcrumb{
+    padding: 10px;
+    font-size: 14px;
+}
+.breadcrumb >a:first-child{
+    color: red;
+}
+
+
+@media screen and (max-width:1400px){
+    .sportsdisplay{
+        display: flex;
+        padding:20px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        }
+        .sportsdisplay>div:first-child{
+            width: 100%;
+        }
+}

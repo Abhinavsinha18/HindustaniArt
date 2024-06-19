@@ -1,15 +1,21 @@
+.benfitboxx{
+    background-color: #f4f4f4;
+}
 .benfitsboxs{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
-}
-.benfitsboxs>div{
-    width: 350px;
+    padding: 40px;
+    gap: 10px;
+    }
+    .benfitsboxs>div{
+        width: 350px;
+        background-color: white;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     gap: 20px;
 }
 .benfitsboxs  img{
@@ -25,7 +31,9 @@
         padding: 10px;
         gap: 20px;
     }
-    
+    .benfitsboxs{
+        padding: 10px;
+    }
 
 }
 @media screen and (max-width:432px){

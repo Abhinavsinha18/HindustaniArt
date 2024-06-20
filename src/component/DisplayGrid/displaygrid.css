@@ -1,0 +1,52 @@
+.displaygridbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.displaygridbox>div:first-child{
+    width: 70%;
+    padding: 20px;
+}
+.displaygridbox>div:last-child{
+    width: 30%;
+    padding: 20px;
+}
+.gridimagesbox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+.morecollside{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.implink{
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(241, 241, 241);
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+@media (max-width:1000px) {
+    .displaygridbox>div:first-child{
+        width: 60%;
+        padding: 20px;
+    }
+    .displaygridbox>div:last-child{
+        width: 40%;
+        padding: 20px;
+    }
+}
+@media (max-width:530px) {
+    .displaygridbox>div:first-child{
+        width: 100%;
+        padding: 20px;
+    }
+    .displaygridbox>div:last-child{
+        width: 100%;
+        padding: 20px;
+    }
+}

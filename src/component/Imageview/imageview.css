@@ -1,0 +1,18 @@
+.imageviewbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.imageviewbox>div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.imageviewbox>div:last-child{
+    text-align: justify;
+
+}

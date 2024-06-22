@@ -10,7 +10,7 @@ const ImageviewComp = () => {
         <div>
           <h1>Narendra modi caricatures</h1>
         </div>
-        <div>
+        <div className="imgviewclass">
           <Image src={img} alt="" height={"500"} width={"500"} />
         </div>
       </div>

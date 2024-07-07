@@ -4,6 +4,18 @@ import img from "../../../public/images/nature.png";
 import "./imageview.css";
 
 const ImageviewComp = () => {
+
+// {
+//   title : "fgfg",
+//   img :"gbf",
+//   post :"",
+//   category : "cricket /foot",
+
+// }
+
+
+
+
   return (
     <div className="imageviewbox">
       <div>

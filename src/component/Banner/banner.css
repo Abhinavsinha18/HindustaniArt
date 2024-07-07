@@ -1,9 +1,33 @@
 .banDiv{
-    background-image: url("../../../public/images/bg\ banner.png");
-    height: 400px;
+    background-image: url("../../../public/images/Banner.jpeg");
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    height: 550px;
     display: flex;
 justify-content: center;
 align-items: center;
+}
+
+
+@media (max-width : 900px){
+    .banDiv{
+        height: 450px;
+    }
+}
+@media (max-width : 700px){
+    .banDiv{
+        height: 350px;
+    }
+}
+@media (max-width : 600px){
+    .banDiv{
+        height: 250px;
+    }
+}
+@media (max-width : 400px){
+    .banDiv{
+        height: 200px;
+    }
 }
 
 .banDiv2{

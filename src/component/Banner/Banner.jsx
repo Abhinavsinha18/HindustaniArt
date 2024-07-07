@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <>
       <div className="banDiv">
-        <div className="banDiv2">
+        {/* <div className="banDiv2">
           <div className="searchBox">
             <span>
               <input
@@ -30,7 +30,7 @@ const Banner = () => {
             <button> <FontAwesomeIcon icon={faSearch} style={{width:'15px'}}/>9_face_toon </button>
             <button> <FontAwesomeIcon icon={faSearch} style={{width:'15px'}}/>9_face_toon </button>
           </div>
-        </div>
+        </div> */}
       </div>
 
 
